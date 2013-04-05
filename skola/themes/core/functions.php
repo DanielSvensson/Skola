@@ -8,7 +8,7 @@
 */
 $sk->data['header'] = '<h1>Header: Kmom02: Skola</h1>';
 $sk->data['footer'] = <<<EOD
-<p>Footer: &copy; Skrutt by Emma Iwald-Bäckman, 2012</p>
+<p>Footer: .: Daniel Svensson :. 2013</p>
 
 <p>Tools:
 <a href="http://validator.w3.org/check/referer">html5</a>
