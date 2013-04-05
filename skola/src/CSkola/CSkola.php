@@ -90,7 +90,7 @@ class CSkola implements ISingleton {
     // Add stylesheet path to the $ly->data array
     $this->data['stylesheet'] = "{$themeUrl}/style.css";
     //Add Favicon
-    $this->data['favicon'] = "{$themeUrl}/img/favicon.jpg";
+    $this->data['favicon'] = "{$themeUrl}/img/favicon.gif";
 
     // Include the global functions.php and the functions.php that are part of the theme
     $sk = &$this;
