@@ -36,3 +36,4 @@ $sk->data['footer'] = <<<EOD
 </p>
 
 EOD;
+?>

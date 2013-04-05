@@ -24,7 +24,7 @@ class CSkola implements ISingleton {
 */
   public static function Instance() {
     if(self::$instance == null) {
-      self::$instance = new CSkrutt();
+      self::$instance = new CSkola();
     }
     return self::$instance;
   }

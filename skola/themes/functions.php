@@ -9,7 +9,7 @@
 * Print debuginformation from the framework.
 */
 function get_debug() {
-  $sk = CSkrutt::Instance();
+  $sk = CSkola::Instance();
   $html = "<h2>Debuginformation</h2><hr><p>The content of the config array:</p><pre>" . htmlentities(print_r($sk->config, true)) . "</pre>";
   $html .= "<hr><p>The content of the data array:</p><pre>" . htmlentities(print_r($sk->data, true)) . "</pre>";
   $html .= "<hr><p>The content of the request array:</p><pre>" . htmlentities(print_r($sk->request, true)) . "</pre>";
