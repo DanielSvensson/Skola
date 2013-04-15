@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
 * Parse the request and identify controller, method and arguments.
 *
@@ -113,5 +113,4 @@ class CRequest {
     $url .= $_SERVER["SERVER_NAME"] . $serverPort . htmlspecialchars($_SERVER["REQUEST_URI"]);
     return $url;
   }
-
 }

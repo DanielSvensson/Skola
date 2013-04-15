@@ -55,7 +55,7 @@ EOD;
 * Create a method that shows the menu, same for all methods
 */
   private function Menu() {
-    $sk = CSkrutt::Instance();
+    $sk = CSkola::Instance();
     $menu = array('developer', 'developer/index', 'developer/links');
     
     $html = null;
@@ -71,6 +71,4 @@ EOD;
 $html
 </ul>
 EOD;
-  }
-  
 }

@@ -14,5 +14,4 @@ class CCIndex implements IController {
     $sk->data['title'] = "The Index Controller";
     $sk->data['main'] = "<h1>The Index Controller</h1>";
   }
-
-} 
+}
